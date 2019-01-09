@@ -1,0 +1,49 @@
+#movie-player-page {
+  height: 100%;
+  overflow: hidden; }
+  #movie-player-page #movie-backspace {
+    z-index: 20;
+    position: absolute;
+    color: #fff;
+    width: 40px;
+    top: 45px;
+    left: 40px;
+    opacity: 0.7;
+    height: auto;
+    cursor: pointer; }
+  #movie-player-page #player-wrapper {
+    height: 100%;
+    overflow: hidden; }
+  #movie-player-page #movie-player {
+    overflow: hidden;
+    width: auto;
+    height: 100%; }
+  #movie-player-page .bmpui-ui-watermark {
+    display: none; }
+  #movie-player-page .bmpui-ui-subtitlesettingstogglebutton.bmpui-on {
+    background-image: url(image/cc_symbol_selected.svg);
+    background-size: contain; }
+  #movie-player-page .bmpui-ui-subtitlesettingstogglebutton.bmpui-off {
+    background-image: url(image/cc_symbol.svg);
+    background-size: contain; }
+  #movie-player-page .bmpui-ui-subtitlesettingstogglebutton.bmpui-on:hover {
+    filter: none;
+    -webkit-filter: none; }
+  #movie-player-page .bmpui-ui-subtitlesettingstogglebutton.bmpui-off:hover {
+    filter: none;
+    -webkit-filter: none; }
+  #movie-player-page .bmpui-subtitle-customization-settings-panel-item {
+    text-align: center; }
+  #movie-player-page .bmpui-subtitle-customization-settings-panel-item .bmpui-customization-open-button .bmpui-label {
+    display: initial; }
+  #movie-player-page .bmpui-subtitle-customization-settings-panel-item .bmpui-customization-open-button {
+    background-image: none;
+    display: block;
+    font-size: .8em;
+    min-height: 15px;
+    height: 1.5em;
+    padding: .5em;
+    width: 100%;
+    filter: none; }
+  #movie-player-page .bmpui-subtitle-customization-settings-panel-item .bmpui-customization-open-button:hover {
+    background-color: rgba(31, 171, 226, 0.85); }
